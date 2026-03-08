@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Dark background fill -->
+    <path
+        android:pathData="M0,0h108v108h-108z"
+        android:fillColor="#121212" />
+
+    <!-- Centered 3x3 puzzle grid -->
+    <group
+        android:translateX="18"
+        android:translateY="18"
+        android:scaleX="0.6667"
+        android:scaleY="0.6667">
+
+        <!-- Outer grid background with subtle border -->
+        <path
+            android:pathData="M0,0h108v108h-108z"
+            android:fillColor="#1E1E1E"
+            android:strokeColor="#333333"
+            android:strokeWidth="4"
+            android:strokeLineJoin="round"
+            android:strokeLineCap="round" />
+
+        <!-- Thin grid lines (separators) -->
+        <path
+            android:pathData="M36,0L36,108M72,0L72,108M0,36L108,36M0,72L108,72"
+            android:strokeColor="#2A2A2A"
+            android:strokeWidth="5" />
+
+        <!-- Purple tiles with rounded corners and numbers -->
+        <!-- Row 1 -->
+        <group android:translateX="3" android:translateY="3">
+            <path android:pathData="M0,0h30v30h-30z" android:fillColor="#7C4DFF" />
+            <path android:pathData="M36,0h30v30h-30z" android:fillColor="#7C4DFF" />
+            <path android:pathData="M72,0h30v30h-30z" android:fillColor="#7C4DFF" />
+        </group>
+
+        <!-- Row 2 -->
+        <group android:translateX="3" android:translateY="39">
+            <path android:pathData="M0,0h30v30h-30z" android:fillColor="#7C4DFF" />
+            <!-- Slightly lighter center tile for emphasis -->
+            <path android:pathData="M36,0h30v30h-30z" android:fillColor="#9F7CFF" />
+            <!-- Empty tile (blank) -->
+            <path android:pathData="M72,0h30v30h-30z" android:fillColor="#1E1E1E" />
+        </group>
+
+        <!-- Row 3 -->
+        <group android:translateX="3" android:translateY="75">
+            <path android:pathData="M0,0h30v30h-30z" android:fillColor="#7C4DFF" />
+            <path android:pathData="M36,0h30v30h-30z" android:fillColor="#7C4DFF" />
+            <path android:pathData="M72,0h30v30h-30z" android:fillColor="#7C4DFF" />
+        </group>
+
+        <!-- Numbers (white, bold, centered on tiles) -->
+        <group android:translateX="3" android:translateY="3">
+            <!-- Row 1 -->
+            <text android:x="15dp" android:y="22dp" android:fillColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium" android:textSize="20sp" android:text="1" />
+            <text android:x="51dp" android:y="22dp" android:fillColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium" android:textSize="20sp" android:text="2" />
+            <text android:x="87dp" android:y="22dp" android:fillColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium" android:textSize="20sp" android:text="3" />
+        </group>
+
+        <group android:translateX="3" android:translateY="39">
+            <!-- Row 2 -->
+            <text android:x="15dp" android:y="22dp" android:fillColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium" android:textSize="20sp" android:text="4" />
+            <text android:x="51dp" android:y="22dp" android:fillColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium" android:textSize="20sp" android:text="5" />
+            <!-- No number on empty tile -->
+        </group>
+
+        <group android:translateX="3" android:translateY="75">
+            <!-- Row 3 -->
+            <text android:x="15dp" android:y="22dp" android:fillColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium" android:textSize="20sp" android:text="6" />
+            <text android:x="51dp" android:y="22dp" android:fillColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium" android:textSize="20sp" android:text="7" />
+            <text android:x="87dp" android:y="22dp" android:fillColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium" android:textSize="20sp" android:text="8" />
+        </group>
+
+        <!-- Subtle glow/shadow around tiles for depth -->
+        <path
+            android:pathData="M3,3h102v102h-102z"
+            android:strokeColor="#9F7CFF"
+            android:strokeWidth="3"
+            android:strokeAlpha="0.20" />
+
+    </group>
+
+</vector>

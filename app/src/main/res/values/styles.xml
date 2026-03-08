@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TileStyle" parent="Widget.MaterialComponents.Button">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+
+        <item name="android:layout_margin">6dp</item>
+
+        <!-- IMPORTANT -->
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+
+        <item name="cornerRadius">18dp</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/tile_background</item>
+
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:elevation">14dp</item>
+
+    </style>
+
+    <style name="GoalMiniTile">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/tile_background</item>
+    </style>
+
+</resources>
