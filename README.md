@@ -29,6 +29,7 @@ An Android implementation of the classic **8 Puzzle Game** enhanced with an **AI
 - JNI
 - C++ (Native Solver)
 
+
 ## Screenshots
 
 <img width="216" height="480" alt="image" src="https://github.com/user-attachments/assets/903dbe74-08ab-47df-b7fc-4cccb04bca8e" />
