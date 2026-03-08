@@ -31,7 +31,13 @@ An Android implementation of the classic **8 Puzzle Game** enhanced with an **AI
 
 ## Screenshots
 
-(Add screenshots here)
+<img width="216" height="480" alt="image" src="https://github.com/user-attachments/assets/903dbe74-08ab-47df-b7fc-4cccb04bca8e" />
+<img width="216" height="480" alt="image" src="https://github.com/user-attachments/assets/6a96eede-1190-4594-a3d9-0f0524fe72fc" />
+<img width="216" height="480" alt="image" src="https://github.com/user-attachments/assets/d2328b22-9999-4080-924b-99bbc12dadda" />
+<img width="216" height="480" alt="image" src="https://github.com/user-attachments/assets/068cd6ef-6117-4e97-b083-36b3ff65b533" />
+
+
+
 
 ## How to Run
 
