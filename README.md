@@ -39,13 +39,6 @@ An Android implementation of the classic **8 Puzzle Game** enhanced with an **AI
 
 
 
-
-## How to Run
-
-1. Clone the repo
-2. Open in Android Studio
-3. Build and run on emulator or device
-
 ## Author
 
 **Atish Kundu**
